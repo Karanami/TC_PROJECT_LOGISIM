@@ -73,73 +73,55 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(1020,290)" to="(1020,360)"/>
-    <wire from="(1060,450)" to="(1060,520)"/>
+    <wire from="(350,480)" to="(410,480)"/>
     <wire from="(410,350)" to="(630,350)"/>
-    <wire from="(380,520)" to="(410,520)"/>
+    <wire from="(410,350)" to="(410,480)"/>
     <wire from="(410,560)" to="(570,560)"/>
-    <wire from="(410,350)" to="(410,520)"/>
-    <wire from="(910,350)" to="(910,410)"/>
-    <wire from="(160,560)" to="(160,640)"/>
-    <wire from="(1060,550)" to="(1060,560)"/>
-    <wire from="(1020,390)" to="(1020,410)"/>
-    <wire from="(340,560)" to="(380,560)"/>
+    <wire from="(330,490)" to="(330,510)"/>
+    <wire from="(710,560)" to="(910,560)"/>
+    <wire from="(410,480)" to="(410,560)"/>
     <wire from="(770,350)" to="(910,350)"/>
-    <wire from="(1030,290)" to="(1030,300)"/>
-    <wire from="(1070,450)" to="(1070,460)"/>
-    <wire from="(710,560)" to="(1060,560)"/>
-    <wire from="(380,520)" to="(380,560)"/>
-    <wire from="(910,410)" to="(1020,410)"/>
-    <wire from="(1060,450)" to="(1070,450)"/>
-    <wire from="(410,520)" to="(410,560)"/>
-    <wire from="(160,560)" to="(300,560)"/>
-    <wire from="(1020,290)" to="(1030,290)"/>
-    <comp lib="5" loc="(1360,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1400,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1120,520)" name="Hex Digit Display"/>
-    <comp lib="6" loc="(691,288)" name="Text">
-      <a name="text" val="SINUS"/>
-    </comp>
-    <comp lib="5" loc="(1070,460)" name="7-Segment Display"/>
-    <comp lib="5" loc="(1320,360)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1240,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1440,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1200,360)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1480,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1280,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1400,360)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1360,360)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(340,560)" name="Bit Extender">
-      <a name="in_width" val="7"/>
-    </comp>
-    <comp lib="9" loc="(1470,370)" name="32bit_decoder_short"/>
-    <comp lib="5" loc="(1120,360)" name="Hex Digit Display"/>
-    <comp lib="6" loc="(621,474)" name="Text">
-      <a name="text" val="COSINUS"/>
-    </comp>
-    <comp lib="5" loc="(1160,520)" name="Hex Digit Display"/>
-    <comp lib="4" loc="(710,560)" name="ROM">
-      <a name="addrWidth" val="16"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 16 32
-10000 fff2 ffd8 ffa4 ff62 ff06 fe97 fe14
-fd84 fcd9 fc1b fb4a fa64 f972 f865 f745
-f617 f4d0 f37b f20c f090 ef00 ed5c eba5
-e9db e803 e617 e418 e205 dfe5 ddb2 db71
-d916 d6b5 d439 d1b7 cf1a cc71 c9ba c6f0
-c418 c134 be3b bb3d b824 b504 b1d7 ae97
-ab4a a7f6 a48e a119 9d9e 9a0f 967a 92d7
-8f27 8b6a 87a7 83d7 8000 7c1b 7831 7439
-703a 6c2f 681d 6404 5fe5 5bc0 578d 535a
-4f1a 4ada 468d 4240 3ded 3999 3538 30d8
-2c71 2809 23a2 1f34 1ac0 1652 11de d63
-8ef 47a
-</a>
-    </comp>
-    <comp lib="0" loc="(160,640)" name="Pin">
+    <comp lib="0" loc="(330,510)" name="Pin">
       <a name="facing" val="north"/>
-      <a name="width" val="7"/>
+      <a name="width" val="32"/>
       <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+    </comp>
+    <comp lib="0" loc="(330,490)" name="Splitter">
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="32"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="bit8" val="none"/>
+      <a name="bit9" val="none"/>
+      <a name="bit10" val="none"/>
+      <a name="bit11" val="none"/>
+      <a name="bit12" val="none"/>
+      <a name="bit13" val="none"/>
+      <a name="bit14" val="none"/>
+      <a name="bit15" val="none"/>
+      <a name="bit16" val="0"/>
+      <a name="bit17" val="0"/>
+      <a name="bit18" val="0"/>
+      <a name="bit19" val="0"/>
+      <a name="bit20" val="0"/>
+      <a name="bit21" val="0"/>
+      <a name="bit22" val="0"/>
+      <a name="bit23" val="0"/>
+      <a name="bit24" val="0"/>
+      <a name="bit25" val="0"/>
+      <a name="bit26" val="0"/>
+      <a name="bit27" val="0"/>
+      <a name="bit28" val="0"/>
+      <a name="bit29" val="0"/>
+      <a name="bit30" val="0"/>
+      <a name="bit31" val="0"/>
     </comp>
     <comp lib="4" loc="(770,350)" name="ROM">
       <a name="addrWidth" val="16"/>
@@ -159,14 +141,47 @@ fc1b fcd9 fd84 fe14 fe97 ff06 ff62 ffa4
 ffd8 fff2 10000
 </a>
     </comp>
-    <comp lib="5" loc="(1280,360)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1320,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1030,300)" name="7-Segment Display"/>
-    <comp lib="5" loc="(1200,520)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1160,360)" name="Hex Digit Display"/>
-    <comp lib="9" loc="(1510,530)" name="32bit_decoder_short"/>
-    <comp lib="5" loc="(1440,360)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1240,360)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(1080,360)" name="Hex Digit Display"/>
+    <comp lib="4" loc="(710,560)" name="ROM">
+      <a name="addrWidth" val="16"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 16 32
+10000 fff2 ffd8 ffa4 ff62 ff06 fe97 fe14
+fd84 fcd9 fc1b fb4a fa64 f972 f865 f745
+f617 f4d0 f37b f20c f090 ef00 ed5c eba5
+e9db e803 e617 e418 e205 dfe5 ddb2 db71
+d916 d6b5 d439 d1b7 cf1a cc71 c9ba c6f0
+c418 c134 be3b bb3d b824 b504 b1d7 ae97
+ab4a a7f6 a48e a119 9d9e 9a0f 967a 92d7
+8f27 8b6a 87a7 83d7 8000 7c1b 7831 7439
+703a 6c2f 681d 6404 5fe5 5bc0 578d 535a
+4f1a 4ada 468d 4240 3ded 3999 3538 30d8
+2c71 2809 23a2 1f34 1ac0 1652 11de d63
+8ef 47a
+</a>
+    </comp>
+    <comp lib="0" loc="(910,350)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+      <a name="label" val="sin"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(910,560)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+      <a name="label" val="cos"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(691,288)" name="Text">
+      <a name="text" val="SINUS"/>
+    </comp>
+    <comp lib="6" loc="(621,474)" name="Text">
+      <a name="text" val="COSINUS"/>
+    </comp>
   </circuit>
 </project>
